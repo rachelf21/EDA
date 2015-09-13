@@ -1,4 +1,4 @@
-##Read and extract data for chosen dates in february
+##Read and extract data for chosen dates in february. (approximate first, then search for dates)
         file<-"household_power_consumption.txt"
         data<-read.table(file, header=TRUE, sep=";", skip = 65000, nrows=5000)
         labels<-read.table(file,nrows=1, sep=";", colClasses="character")
